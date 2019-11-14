@@ -15,7 +15,7 @@
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
-		<java.version>13</java.version>
+		<java.version>12</java.version>
 		<swagger.version>2.9.2</swagger.version>
 	</properties>
 
@@ -60,13 +60,13 @@
 			<artifactId>springfox-swagger2</artifactId>
 			<version>${swagger.version}</version>
 		</dependency>
-		<dependency>
-			<groupId>com.epam.springTasks.SystemSecurity</groupId>
-			<artifactId>SecuritySystem</artifactId>
-			<version>1.0-alpha</version>
-			<scope>system</scope>
-			<systemPath>${project.basedir}/src/main/resources/SecuritySystem-1.0-alpha.jar</systemPath>
-		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>com.epam.springTasks.SystemSecurity</groupId>-->
+<!--			<artifactId>SecuritySystem</artifactId>-->
+<!--			<version>1.0-alpha</version>-->
+<!--			<scope>system</scope>-->
+<!--			<systemPath>${project.basedir}/src/main/resources/SecuritySystem-1.0-alpha.jar</systemPath>-->
+<!--		</dependency>-->
 	</dependencies>
 
 	<build>

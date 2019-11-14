@@ -1,6 +1,5 @@
 package springForHeroku.AOP;
 
-import Legacy.Inspector;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
@@ -8,6 +7,7 @@ import org.aspectj.lang.annotation.Pointcut;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import springForHeroku.Exceptions.AdminPrivilegeException;
+import springForHeroku.Legacy.Inspector;
 import springForHeroku.domains.User;
 
 @Aspect
